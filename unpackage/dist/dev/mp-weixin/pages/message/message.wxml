@@ -1,0 +1,1 @@
+<view><view class="_div">66666666</view><button type="primary" data-event-opts="{{[['tap',[['pulldown']]]]}}" bindtap="__e">下拉刷新</button><view><block wx:for="{{list}}" wx:for-item="item" wx:for-index="i" wx:key="i"><view><view title note>{{item}}</view></view></block></view><view>*********</view></view>

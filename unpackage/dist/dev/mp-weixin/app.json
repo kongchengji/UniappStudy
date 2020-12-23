@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/info/info",
+    "pages/message/message",
+    "pages/dataTest/dataTest",
+    "pages/imageP/imageP"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "实时新闻",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "新闻列表"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "新闻"
+      },
+      {
+        "pagePath": "pages/dataTest/dataTest",
+        "text": "数据"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

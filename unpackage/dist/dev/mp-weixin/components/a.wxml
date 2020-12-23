@@ -1,0 +1,1 @@
+<view><view><button type="primary" data-event-opts="{{[['tap',[['addNum',['$event']]]]]}}" bindtap="__e">点击增加B组件</button></view></view>

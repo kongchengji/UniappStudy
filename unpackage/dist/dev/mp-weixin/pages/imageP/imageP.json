@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "test": "/components/test",
+    "aa": "/components/a",
+    "bb": "/components/b"
+  }
+}
