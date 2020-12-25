@@ -11,8 +11,12 @@
 		<button type="primary" @click="setStorage">存储数据</button>
 		<button type="primary" @click="getStorage">获取数据</button>
 		<button type="primary" @click="removeId">移出id数据</button>
+		<button type="primary" @click="getNodeJs">测试获取nodeJs数据</button>
 		<view class="" @click="toImage">
-			跳转
+			跳转imageP
+		</view>
+		<view class="" @click="toTimeRecord">
+			跳转时间记录
 		</view>
 	</view>
 </template>
@@ -67,7 +71,16 @@
 					fail: () => {},
 					complete: () => {}
 				});
-			}
+			},
+			toTimeRecord(){
+				uni.navigateTo({
+					url: '../TimeRecord/TimeRecord',
+					success: res => {},
+					fail: () => {},
+					complete: () => {}
+				});
+			},
+			
 		},
 		onPullDownRefresh(){
 			console.log("页面下拉刷新了")

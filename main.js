@@ -1,5 +1,8 @@
 import Vue from 'vue'
 import App from './App'
+// UI框架
+import uView from "uview-ui";
+Vue.use(uView);
 
 Vue.config.productionTip = false
 

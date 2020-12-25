@@ -33,6 +33,7 @@
 			}
 		},
 		onLoad() {
+			// console.log(this.$u.config.v);
 			// 通过showLoading可以为页面设置加载动画
 			uni.showLoading({
 				title:"加载中......"

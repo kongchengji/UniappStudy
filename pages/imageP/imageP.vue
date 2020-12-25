@@ -37,7 +37,7 @@
 					success:(res)=> {
 						console.log("图片上传成功",res)
 						this.imgUrl = res.tempFilePaths
-						// console.log(this.imgUrl)
+						console.log(this.imgUrl)
 					}
 				})
 			},
